@@ -9,6 +9,39 @@ h2
 
 }
 
+input {
+    width: 100%;  /* Width is 100% of its parent container */
+      max-width: 400px; /* Maximum width of 400px */
+      height: 50px;  /* Set height */
+      padding: 10px;  /* Padding inside the box */
+      font-size: 16px;  /* Font size of the input */
+      border: 2px solid #ccc;  /* Border around the input */
+      border-radius: 5px;  /* Rounded corners */
+      box-sizing: border-box;  /* Ensures padding is included in width/height */
+      margin-left: 480px;
+      background-color:rgba(128, 128, 128, 0.234);
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+
+}
+
+ button {
+    width: 100%;  /* Width is 100% of its parent container */
+    max-width: 200px; /* Maximum width of 400px */
+    height: 50px;  /* Set height */
+    padding: 10px;
+    /* Padding inside the box */
+    font-size: 16px;
+    border-radius: 10px;
+   position: relative;
+    top: -85px;
+    margin-left:890px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: rgba(88, 88, 94, 0.084);
+
+ }
 p
 {
     font-size: 20px;
@@ -24,9 +57,16 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-color: #181818;  /* Deep Charcoal/Black */
+    background: linear-gradient(45deg, #181818, #2C2C2E);  /* Subtle gradient */
+    color: #FFFFFF;  /* White text */
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.Heo{
+
+div{
         width: 300px;
         border: 15px solid green;
         padding: 50px;
@@ -40,3 +80,8 @@ body{
         background-color: black;
     }
 
+ h1 {
+   color: rgb(133, 20, 220);
+   margin-left: 500px;
+   margin-top: 200px;
+ }
